@@ -1,0 +1,66 @@
+label {
+    font-size: 14px;
+    color: #444;
+    font-weight: 500;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: #000;
+    outline: none;
+}
+
+.btn:hover {
+    background: var(--color-a);
+    color: var(--color-p);
+}
+
+.image-upload-label:focus-within {
+    outline: 2px solid var(--color-a);
+    outline-offset: 2px;
+}
+
+.image-upload-control {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.image-upload-label,
+.image-upload-label:hover,
+.image-upload-label:focus {
+    color: #fff;
+}
+
+.image-upload-filename {
+    flex: 1;
+    min-width: 0;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    overflow: hidden;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.create-advertisement-layout {
+    min-height: max(0px, calc(100vh - 12rem));
+}
+
+.img-preview{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}

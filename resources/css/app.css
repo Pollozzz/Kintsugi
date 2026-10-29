@@ -1,0 +1,10 @@
+@import 'bootstrap';
+@import './style.css';
+@import './categories.css';
+@import './footer.css';
+@import './navbar.css';
+@import './form.css';
+@import './hero.css';
+@import './advertisement.css';
+@import './revisor.css';
+@import 'bootstrap-icons';
